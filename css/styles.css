@@ -5,6 +5,7 @@ body {
   font-family: "indivisible", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background: content-box radial-gradient(#dc5151, #b1c170)
 }
 
 img {
@@ -43,15 +44,42 @@ img {
 
 .message-distribution {
   display: flex;
+  flex-direction: column;
   align-self: flex-end;
+}
+
+
+.message-content {
+  box-shadow: 12px 10px #f2edc1;
+  border-radius: 100px;
+}
+
+.message-box-no-distribution  {
+  box-shadow: 12px 10px #ff8383;
+  border-radius: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-small;
+  background: #f2edc1;
   flex-direction: row;
 }
 
-.message-content {
-  box-shadow: 10px 10px #f2edc1;
-  border-radius: 100px;
+header img {
+  width: 2px;
+  height: 2px;
+  margin: auto;
 }
-.message-box-no-distribution  {
-  box-shadow: 10px 10px #ff8383;
-  border-radius: 100px;
+
+.chat-form {
+  background: #333;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }

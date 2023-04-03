@@ -8,11 +8,14 @@
     <title>Chat-box</title>
   </head>
   <body>
-    <div class="chat-container">
+    <div class="container">
+      <img src="img/profile-photo.svg" alt="Icone de profil.">
       <h1>Léo</h1>
-      <p class="hour">
-        07:50
-      </p>
+    </div>
+    <p class="hour">
+      07:50
+    </p>
+    <div class="chat-container">
       <div class="message-box message-box-leo">
         <p class="message-content">
           Hello ! Toujours rendez-vous à 9h ?
@@ -152,7 +155,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Ça fait peur ici… Je suis pas alaise, je vais essayer de trouver de
           l’aide
         </p>
@@ -161,7 +164,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           NON ! MES MESSAGES S'ENVOIENT PLUS 
         </p>
         <p class="message-distribution no-message-distribution">
@@ -177,7 +180,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Non ! Je suis perdu et aucun de mes messages s'envoient !
         </p>
         <p class="message-distribution no-message-distribution">
@@ -201,7 +204,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Je comprends rien, où je suis, il y a que moi ici, personne d'autre.
         </p>
         <p class="message-distribution no-message-distribution">
@@ -209,7 +212,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           J’ai vraiment besoin d’aide, appelle-moi quand tu recevras mes 
           messages !
         </p>
@@ -235,7 +238,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Merci pour ta carte inutile je sais pas du tout me repérer, j’ai 
           l’impression que où je suis n’existe pas sur le carte
         </p>
@@ -244,7 +247,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Rohhh tu recois toujours pas mes messages
         </p>
         <p class="message-distribution no-message-distribution">
@@ -261,7 +264,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Mais je fais pas exprès Léo ! c’est vraiment bizarre ici, j’ai peur.
         </p>
         <p class="message-distribution no-message-distribution">
@@ -269,7 +272,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           J’ai vraiment peur Léo
         </p>
         <p class="message-distribution no-message-distribution">
@@ -277,7 +280,7 @@
         </p>
       </div>
       <div class="message-box message-box-martin">
-        <p class="message-content">
+        <p class="message-content message-box-no-distribution">
           Rien ne s’envoie, je me sens mal, y'a pleins de mauvaises énergies.
         </p>
         <p class="message-distribution no-message-distribution">
@@ -394,7 +397,7 @@
       </div>
       <div class="message-box message-box-martin">
         <p class="message-content">
-          <img src="img/">
+          <img src="img/animation-leg.gif" alt="Jambes morsures">
         </p>
         <p class="message-distribution">
           distribué
@@ -413,14 +416,6 @@
           En essayant de semer le monstre  je suis retourné à la gare et un 
           train attendait là, que je monte, j’ai l’impression d’être dans un 
           rêve...
-        </p>
-        <p class="message-distribution">
-          distribué
-        </p>
-      </div>
-      <div class="message-box message-box-leo">
-        <p class="message-content">
-          Oh c’est vraiment pas beau! Mais comment t’as réussi à t’échapper ?
         </p>
         <p class="message-distribution">
           distribué
@@ -524,6 +519,10 @@
         <p class="message-distribution">
           distribué
         </p>
+      </div>
+      <div class="chat-form">
+        <input type="text">
+        <button>Envoyer</button>
       </div>
     </div>
   </body>
