@@ -50,7 +50,7 @@ img {
 
 
 .message-content {
-  box-shadow: 12px 10px #f2edc1;
+  box-shadow: 5px 8px #f2edc1;
   border-radius: 100px;
 }
 
@@ -59,27 +59,27 @@ img {
   border-radius: 100px;
 }
 
-.container {
+.icon-header .container {
   display: flex;
   justify-content: space-between;
-  font-size: x-small;
-  background: #f2edc1;
   flex-direction: row;
+  background: #f2edc1;
 }
 
 header img {
-  width: 2px;
-  height: 2px;
+  width: 75px;
+  height: 50px;
   margin: auto;
 }
 
 .chat-form {
-  background: #333;
+  background: #f2edc1;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
   box-sizing: border-box;
   position: sticky;
   bottom: 0;
   display: flex;
   justify-content: space-between;
+  border-radius: 3px;
 }
